@@ -1,1 +1,3 @@
-console.log("Oliwiii");
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(<h1>Hola</h1>, document.getElementById('app'));
