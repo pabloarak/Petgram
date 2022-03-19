@@ -1,3 +1,3 @@
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(<h1>Hola</h1>, document.getElementById('app'));
+ReactDOM.render(<h1>Hola</h1>, document.getElementById('app'))
