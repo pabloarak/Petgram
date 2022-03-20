@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const Anchor = styled.a`
   display: flex;
@@ -6,10 +6,16 @@ export const Anchor = styled.a`
   text-align: center;
   text-decoration: none;
   width: 75px;
+  ${(props) =>
+    props.loading === 'true' &&
+    css`
+      object-fit: scale-down;
+    `}
 `
 
 export const Image = styled.img`
-  border: 1px solid #ddd;
+  background-color: #aaa;
+  border: 1px solid #fff;
   box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   height: auto;

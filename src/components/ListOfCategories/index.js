@@ -3,18 +3,20 @@ import { Category } from '../Category'
 import { List, Item } from './styles'
 
 const useCategoriesData = () => {
-  const [categories, setCategories] = useState([])
+  const [categories, setCategories] = useState(Array(5).fill({}))
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setLoading(true)
-    window
-      .fetch('https://petgram-server-pabloarak.vercel.app/categories')
-      .then((res) => res.json())
-      .then((response) => {
-        setCategories(response)
-        setLoading(false)
-      })
+    setTimeout(() => {
+      window
+        .fetch('https://petgram-server-pabloarak.vercel.app/categories')
+        .then((res) => res.json())
+        .then((json) => {
+          setCategories(json)
+          setLoading(false)
+        })
+    }, 2000)
   }, [])
 
   return { categories, loading }
@@ -36,26 +38,22 @@ export const ListOfCategories = () => {
     return () => document.removeEventListener('scroll', onScroll)
   }, [showFixed])
 
-  const renderList = (fixed) => (
+  const renderList = (fixed, loading) => (
     <List fixed={fixed}>
-      {loading
-        ? <Item key='loading'><Category /></Item>
-        : categories.map((category) => (
-          <Item key={category.id}>
-            <Category {...category} />
+      {categories.map((category, i) => {
+        return (
+          <Item key={category.id || i}>
+            <Category {...category} loading={loading.toString()} />
           </Item>
-        ))}
+        )
+      })}
     </List>
   )
 
-  if (loading) {
-    return 'Cargando...'
-  }
-
   return (
     <>
-      {renderList()}
-      {showFixed && renderList(showFixed)}
+      {renderList(false, loading)}
+      {showFixed && renderList(true, loading)}
     </>
   )
 }
