@@ -3,14 +3,22 @@
     {
       "id": "7ec3d2f0-641e-11e9-9d5d-1b8ad05606d1",
       "password": "$2b$10$RNCVsIxNLKP8Gl.BPoedXuwGczl527UfsLDYcb.9V856ng4kxULrS",
-      "favs": ["18", "1"],
+      "favs": [
+        "18",
+        "1"
+      ],
       "avatar": "https://gravatar.com/avatar/8e04be7dab487d77f16969fd3e0d45d4",
       "email": "miduga@gmail.com"
     },
     {
       "id": "a882e1d0-6428-11e9-9b1f-8980b7d40890",
       "password": "$2b$10$BffxqFIacmPkKr2VZgyu7.r0nMmCMbL3nNw3CdWLpKVSKWkUAQGJS",
-      "favs": ["18", "16", "1", "15"],
+      "favs": [
+        "18",
+        "16",
+        "1",
+        "15"
+      ],
       "avatar": "https://gravatar.com/avatar/3bccd59be0a57b39bdd9b2760702795e",
       "email": "dani@gmail.com"
     }
@@ -20,42 +28,42 @@
       "id": 1,
       "name": "cats",
       "emoji": "🐱",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_cats.jpg",
+      "cover": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/cats"
     },
     {
       "id": 2,
       "name": "dogs",
       "emoji": "🐶",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_dogs.jpg",
+      "cover": "https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/dogs"
     },
     {
       "id": 3,
       "name": "hamsters",
       "emoji": "🐹",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_hamsters.jpg",
+      "cover": "https://images.unsplash.com/photo-1553987882-91d92995e16c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/hamsters"
     },
     {
       "id": 4,
       "name": "rabbits",
       "emoji": "🐰",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_rabbits.jpg",
+      "cover": "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/rabbits"
     },
     {
       "id": 5,
       "name": "birds",
       "emoji": "🐦",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_birds.jpg",
+      "cover": "https://images.unsplash.com/photo-1500879747858-bb1845b61beb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/birds"
     },
     {
       "id": 6,
       "name": "fishes",
       "emoji": "🐠",
-      "cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_fishes.jpg",
+      "cover": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "path": "/photos/fishes"
     }
   ],
@@ -63,7 +71,7 @@
     {
       "id": 0,
       "categoryId": 2,
-      "src": "https://res.cloudinary.com/midudev/image/upload/w_300/q_80/v1560262103/dogs.png",
+      "src": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 100,
       "likes": 7
     },

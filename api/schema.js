@@ -3,7 +3,7 @@ const categoriesModel = require('./models/categoriesModel')
 const photosModel = require('./models/photosModel')
 const { gql } = require('apollo-server-express')
 const jsonwebtoken = require('jsonwebtoken')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 
 const typeDefs = gql`
   type User {

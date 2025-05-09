@@ -10,7 +10,7 @@ const useCategoriesData = () => {
     setLoading(true)
     setTimeout(() => {
       window
-        .fetch('https://petgram-server-pabloarak.vercel.app/categories')
+        .fetch('http://localhost:3500/categories')
         .then((res) => res.json())
         .then((json) => {
           setCategories(json)
