@@ -6,14 +6,14 @@ A social network for pets building with ReactJS, NodeJS, ExpressJS and GraphQL.
 
 ### Developers
 
-#### API
+#### API (Node)
 
 ```shell
 $ cd api
 $ npm run dev:api
 ```
 
-#### Frontend
+#### Frontend (React)
 
 ```shell
 $ npm run dev
